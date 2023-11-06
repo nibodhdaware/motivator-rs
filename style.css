@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'DM Serif Display', serif;
+  margin: 0;
+}
+
+#quote-container {
+  width: 100%;
+  /* padding: 10%; */
+  text-align: center;
+}
+
+#quote {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-size: 18px;
+}

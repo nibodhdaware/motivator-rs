@@ -1,0 +1,20 @@
+[package]
+name = "motivator-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+js-sys = "0.3.64"
+reqwasm = "0.5.0"
+serde = { version = "1.0.190", features = ["derive"] }
+serde_json = "1.0.108"
+stylist = "0.13.0"
+wasm-bindgen-futures = "0.4.37"
+web-sys = "0.3.64"
+yew = { git = "https://github.com/yewstack/yew", features = ["csr"]}
+
+[serve]
+address = "127.0.0.1"
+port = 8080
